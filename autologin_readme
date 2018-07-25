@@ -1,0 +1,1 @@
+For autologin copy agetty-autologin-tty1 to /etc/sv/ and make a symbolic link to /var/service/. Change the username to wahtever needed and dpo this from tty2. To switch to tty2 press CTRL+ALT+F2.
