@@ -70,7 +70,6 @@ ln -s /etc/sv/consolekit /var/service/
 
 #basic tools
 xbps-install -Sy ranger /
-    nnn /
     htop /
     nvim /
     feh /
@@ -89,4 +88,18 @@ xbps-install -Sy ranger /
     acpi /
     font-sourcecodepro /
     font-awesome5 /
+    mpc /
+    mpd /
+    ncmpcpp /
+    newsboat /
+    neomutt /
+    redshift /
+    noto-fonts-ttf /
+    noto-fonts-emoji /
+    scrot /
+    unrar /
+    unzip /
+    wget /
+    curl /
+    zathur
 
