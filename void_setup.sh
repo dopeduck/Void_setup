@@ -103,3 +103,6 @@ xbps-install -Sy ranger /
     curl /
     zathur
 
+#TLP
+xbps-install -Sy tlp
+ln -s /etc/services/tlp /var/service/
