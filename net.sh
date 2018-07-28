@@ -2,13 +2,13 @@
 set -e
 
 #NetworkManager
-xbps-install -S NetworkManager network-manager-applet gnome-icon-theme inetutils-ifconfig gnome-keyring
+sudo bps-install -S NetworkManager network-manager-applet gnome-icon-theme inetutils-ifconfig gnome-keyring
 
-sudo echo 'polkit.addRule(function(action, subject) {
-  if (action.id.indexOf("org.freedesktop.NetworkManager.") == 0 && subject.isInGroup("network")) {
-    return polkit.Result.YES;
-  }
-});' > /etc/polkit-1/rules.d/50-org.freedesktop.NetworkManager.rules
+#sudo echo 'polkit.addRule(function(action, subject) {
+#  if (action.id.indexOf("org.freedesktop.NetworkManager.") == 0 && subject.isInGroup("network")) {
+#    return polkit.Result.YES;
+#  }
+#});' > /etc/polkit-1/rules.d/50-org.freedesktop.NetworkManager.rules
 
 #Adding user to network group
 sudo gpasswd -a $USER network
