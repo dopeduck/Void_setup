@@ -33,3 +33,4 @@ sudo xbps-install -Sy ranger \
     wget \
     curl \
 
+pip3 install neovim --user
