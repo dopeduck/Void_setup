@@ -32,5 +32,10 @@ sudo xbps-install -Sy ranger \
     unzip \
     wget \
     curl \
-
+    ctags \
+    clang \
+    font-awesome5 \
+    font-sourcecodepro \
+    fzf \
+    emacs
 pip3 install neovim --user
