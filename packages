@@ -1,0 +1,59 @@
+#!/bin/bash/
+set -e
+
+sudo xbps-install ImageMagick \
+    acpi \
+    base-devel \
+    broadcom-bt-firmware \
+    cava \
+    clang \
+    compton \
+    ctags \
+    curl \
+    dmenu \
+    feh \
+    ffmpeg \
+    ffmpegthumbnailer \
+    firefox \
+    font-awesome5 \
+    font-sourcecodepro \
+    fontconfig-32bit \
+    fzf \
+    git \
+    htop \
+    libX11-devel \
+    libXft-devel \
+    libXinerama-devel \
+    lvm2 \
+    mdadm \
+    mpc \
+    mpd \
+    mpv \
+    ncmpcpp \
+    neofetch \
+    neomutt \
+    neovim \
+    newsboat \
+    noto-fonts-emoji \
+    noto-fonts-ttf \
+    picard \
+    poppler \
+    python-pip \
+    python3.4-pip \
+    qutebrowser \
+    ranger \
+    redshift \
+    scrot \
+    tree \
+    unclutter \
+    unzip \
+    void-repo-nonfree \
+    w3m \
+    w3m-img \
+    wget \
+    xterm \
+    youtube-viewer \
+    zathura \
+    emacs-x11 \
+
+pip3 install neovim --user
