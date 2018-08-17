@@ -55,5 +55,7 @@ sudo xbps-install ImageMagick \
     youtube-viewer \
     zathura \
     emacs-x11 \
+    dunst \
+
 
 pip3 install neovim --user
