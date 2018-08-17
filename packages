@@ -16,8 +16,6 @@ sudo xbps-install ImageMagick \
     ffmpegthumbnailer \
     firefox \
     font-awesome5 \
-    font-sourcecodepro \
-    fontconfig-32bit \
     fzf \
     git \
     htop \
@@ -54,8 +52,7 @@ sudo xbps-install ImageMagick \
     xterm \
     youtube-viewer \
     zathura \
-    emacs-x11 \
     dunst \
-
+    rxvt-unicode
 
 pip3 install neovim --user
