@@ -2,7 +2,7 @@
 set -e
 
 #NetworkManager
-sudo xbps-install -S NetworkManager network-manager-applet gnome-icon-theme inetutils-ifconfig gnome-keyring
+sudo xbps-install -Sy NetworkManager network-manager-applet gnome-icon-theme inetutils-ifconfig gnome-keyring
 
 sudo echo 'polkit.addRule(function(action, subject) {
   if (action.id.indexOf("org.freedesktop.NetworkManager.") == 0 && subject.isInGroup("network")) {

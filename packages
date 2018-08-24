@@ -1,7 +1,7 @@
 #!/bin/bash/
 set -e
 
-sudo xbps-install ImageMagick \
+sudo xbps-install -y ImageMagick \
     acpi \
     base-devel \
     broadcom-bt-firmware \
@@ -53,6 +53,7 @@ sudo xbps-install ImageMagick \
     youtube-viewer \
     zathura \
     dunst \
-    rxvt-unicode
+    rxvt-unicode \
+    zathura-pdf-mupdf
 
 pip3 install neovim --user

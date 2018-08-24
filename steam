@@ -1,10 +1,9 @@
 #!/bin/bash
 set -e
-
-sudo xbps-install -y void-repo-nonfree \
-    void-repo-multilib \
+#void-repo-nonfree \
+sudo xbps-install -y void-repo-multilib \
     void-repo-multilib-nonfree 
-sudo xbps-install -y  steam \
+sudo xbps-install -yS  steam \
     libpulseaudio-32bit libtxc_dxtn-32bit fontconfig-32bit libavcodec-32bit libavformat-32bit libavresample-32bit libavutil-32bit libv8-32bit \
     libGL-32bit mesa-ati-dri-32bit \
     mono
