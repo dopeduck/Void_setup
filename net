@@ -15,7 +15,6 @@ sudo gpasswd -a $USER network
 
 #Removing unnecessary services
 sudo rm -fr /var/service/dhcpcd
-sudo rm -fr /var/service/wpa_supplicant
 
 #Adding Services
 sudo ln -s /etc/sv/NetworkManager /var/service

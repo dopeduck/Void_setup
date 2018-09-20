@@ -1,5 +1,0 @@
-#!/bin/bash
-set -e
-
-sudo xbps-install -Sy tlp powertop
-sudo ln -s /etc/services/tlp /var/service/

@@ -2,9 +2,4 @@
 set -e
 
 #Audio
-sudo xbps-install -Sy alsa-utils pulseaudio ConsoleKit2 pamixer
-
-#services
-sudo ln -s /etc/sv/alsa /var/service/
-sudo ln -s /etc/sv/cgmanager /var/service/
-sudo ln -s /etc/sv/consolekit /var/service/
+sudo xbps-install -Sy alsa-utils pulseaudio pamixer alsa-plugins-pulseaudio

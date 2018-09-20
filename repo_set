@@ -1,8 +1,0 @@
-#!/bin/bash/
-set -e
-
-#Adding mirror
-sudo cat repo >> /etc/xbps.d/my-remote-repo.conf
-
-#Syncing and updating
-sudo xbps-install -Su

@@ -5,7 +5,6 @@ sudo xbps-install -y ImageMagick \
     acpi \
     base-devel \
     broadcom-bt-firmware \
-    cava \
     clang \
     compton \
     ctags \
@@ -15,29 +14,18 @@ sudo xbps-install -y ImageMagick \
     ffmpeg \
     ffmpegthumbnailer \
     firefox \
-    font-awesome5 \
     fzf \
     git \
     htop \
     libX11-devel \
     libXft-devel \
-    libXinerama-devel \
-    lvm2 \
-    mdadm \
     mpc \
-    mpd \
     mpv \
-    ncmpcpp \
     neofetch \
-    neomutt \
     neovim \
-    newsboat \
     noto-fonts-emoji \
-    noto-fonts-ttf \
     picard \
-    poppler \
     python-pip \
-    python3.4-pip \
     qutebrowser \
     ranger \
     redshift \
@@ -45,14 +33,10 @@ sudo xbps-install -y ImageMagick \
     tree \
     unclutter \
     unzip \
-    void-repo-nonfree \
     w3m \
     w3m-img \
     wget \
-    xterm \
-    youtube-viewer \
     zathura \
-    dunst \
     rxvt-unicode \
     zathura-pdf-mupdf
 
