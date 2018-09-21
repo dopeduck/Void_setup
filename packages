@@ -4,6 +4,7 @@ set -e
 sudo xbps-install -y ImageMagick \
     acpi \
     base-devel \
+    cmus \
     broadcom-bt-firmware \
     clang \
     compton \
@@ -24,15 +25,16 @@ sudo xbps-install -y ImageMagick \
     neofetch \
     neovim \
     noto-fonts-emoji \
+    noto-fonts-ttf \
+    font-sourcecodepro \
     picard \
     python-pip \
-    qutebrowser \
     ranger \
     redshift \
     scrot \
-    tree \
-    unclutter \
+    unclutter-xfixes \
     unzip \
+    emacs-x11 \
     w3m \
     w3m-img \
     wget \

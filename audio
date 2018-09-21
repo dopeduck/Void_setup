@@ -2,4 +2,4 @@
 set -e
 
 #Audio
-sudo xbps-install -Sy alsa-utils pulseaudio pamixer alsa-plugins-pulseaudio
+sudo xbps-install -Sy alsa-utils 
