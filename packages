@@ -2,44 +2,48 @@
 set -e
 
 sudo xbps-install -y ImageMagick \
-    acpi \
-    base-devel \
-    cmus \
-    light \
-    broadcom-bt-firmware \
-    clang \
-    compton \
-    ctags \
-    kitty \
-    curl \
-    dmenu \
-    feh \
-    ffmpeg \
-    ffmpegthumbnailer \
-    fzf \
-    arc-theme \
-    git \
-    htop \
-    mpv \
-    neofetch \
-    neovim \
-    noto-fonts-emoji \
-    noto-fonts-ttf \
-    font-fantasque-sans-ttf \
-    python-pip \
-    ranger \
-    redshift \
-    scrot \
-    unclutter-xfixes \
-    unzip \
-    emacs-x11 \
-    w3m \
-    w3m-img \
-    wget \
-    zathura \
-    zathura-pdf-poppler
+  acpi \
+  cmus \
+  light \
+  broadcom-bt-firmware \
+  clang \
+  compton \
+  ctags \
+  kitty \
+  curl \
+  dmenu \
+  feh \
+  ffmpeg \
+  ffmpegthumbnailer \
+  fzf \
+  arc-theme \
+  git \
+  htop \
+  mpv \
+  neofetch \
+  neovim \
+  noto-fonts-emoji \
+  noto-fonts-ttf \
+  font-fantasque-sans-ttf \
+  python-pip \
+  ranger \
+  redshift \
+  scrot \
+  unclutter-xfixes \
+  unzip \
+  emacs-x11 \
+  firefox \
+  qutebrowser \
+  w3m \
+  w3m-img \
+  wget \
+  zathura \
+  zsh \
+  zathura-pdf-poppler
 
 pip install neovim --user
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 nvim +PluginInstall +qall
+
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
