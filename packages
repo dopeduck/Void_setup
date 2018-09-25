@@ -16,7 +16,8 @@ sudo xbps-install -y ImageMagick \
   ffmpeg \
   ffmpegthumbnailer \
   fzf \
-  arc-theme \
+  breeze-cursors \
+  breeze-gtk \
   git \
   htop \
   mpv \
