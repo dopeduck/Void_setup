@@ -1,8 +1,25 @@
 #!/bin/bash/
 set -e
 
-#i3-gaps
-sudo xbps-install -y i3-gaps i3lock i3blocks
-
 #Xorg
 sudo xbps-install -y xorg
+
+now=$PWD
+
+mkdir ~/suckless
+cd ~/suckless
+git clone https://github.com/dopeduck/dwm
+git clone https://git.suckless.org/slock
+
+sudo xbps-install -S libXrandr-devel \
+    libX11-devel \
+    libXft-devel \
+    libXinerama-devel
+
+cd dwm
+sudo make clean install
+
+cd ../slock
+sudo make clean install
+
+cd $now

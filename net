@@ -2,7 +2,7 @@
 set -e
 
 #NetworkManager
-sudo xbps-install -Sy NetworkManager network-manager-applet gnome-icon-theme inetutils-ifconfig gnome-keyring
+#sudo xbps-install -Sy NetworkManager network-manager-applet gnome-icon-theme inetutils-ifconfig gnome-keyring
 
 sudo echo 'polkit.addRule(function(action, subject) {
   if (action.id.indexOf("org.freedesktop.NetworkManager.") == 0 && subject.isInGroup("network")) {
@@ -11,7 +11,7 @@ sudo echo 'polkit.addRule(function(action, subject) {
 });' > /etc/polkit-1/rules.d/50-org.freedesktop.NetworkManager.rules
 
 #Adding user to network group
-sudo gpasswd -a $USER network
+sudo gpasswd -a prat network
 
 #Removing unnecessary services
 sudo rm -fr /var/service/dhcpcd

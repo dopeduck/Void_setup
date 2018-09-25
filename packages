@@ -5,29 +5,27 @@ sudo xbps-install -y ImageMagick \
     acpi \
     base-devel \
     cmus \
+    light \
     broadcom-bt-firmware \
     clang \
     compton \
     ctags \
+    kitty \
     curl \
     dmenu \
     feh \
     ffmpeg \
     ffmpegthumbnailer \
-    firefox \
     fzf \
+    arc-theme \
     git \
     htop \
-    libX11-devel \
-    libXft-devel \
-    mpc \
     mpv \
     neofetch \
     neovim \
     noto-fonts-emoji \
     noto-fonts-ttf \
-    font-sourcecodepro \
-    picard \
+    font-fantasque-sans-ttf \
     python-pip \
     ranger \
     redshift \
@@ -39,7 +37,9 @@ sudo xbps-install -y ImageMagick \
     w3m-img \
     wget \
     zathura \
-    rxvt-unicode \
-    zathura-pdf-mupdf
+    zathura-pdf-poppler
 
-pip3 install neovim --user
+pip install neovim --user
+
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+nvim +PluginInstall +qall
