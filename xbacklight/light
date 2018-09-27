@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+
+sudo cp xorg.conf /etc/X11/
