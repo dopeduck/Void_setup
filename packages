@@ -32,8 +32,7 @@ sudo xbps-install -y ImageMagick \
   scrot \
   unclutter-xfixes \
   unzip \
-  emacs-x11 \
-  firefox \
+  # firefox-esr \
   qutebrowser \
   w3m \
   w3m-img \
@@ -44,7 +43,5 @@ sudo xbps-install -y ImageMagick \
 
 pip install neovim --user
 
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 nvim +PluginInstall +qall
 
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
