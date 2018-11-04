@@ -2,6 +2,7 @@
 set -e
 
 sudo xbps-install -y ImageMagick \
+  xorg \
   acpi \
   cmus \
   light \
@@ -11,6 +12,7 @@ sudo xbps-install -y ImageMagick \
   ctags \
   kitty \
   curl \
+  rxvt-unicode \
   dmenu \
   feh \
   ffmpeg \

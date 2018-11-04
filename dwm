@@ -1,9 +1,6 @@
 #!/bin/bash/
 set -e
 
-#Xorg
-sudo xbps-install -y xorg
-
 now=$PWD
 
 mkdir ~/suckless
