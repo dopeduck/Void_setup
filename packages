@@ -3,47 +3,48 @@ set -e
 
 sudo xbps-install -y ImageMagick \
   xorg \
+  i3-gaps i3blocks i3lock \
   acpi \
-  cmus \
+  arc-icon-theme arc-theme \
+  breeze-obsidian-cursor-theme \
+  lxappearance \
+  mpd \
+  mpc \
+  ncmpcpp \
   light \
-  broadcom-bt-firmware \
-  clang \
   compton \
+  compton-conf \
+  dunst \
+  picard \
+  alsa-utils \
   ctags \
   kitty \
   curl \
   rxvt-unicode \
-  dmenu \
+  rofi \
   feh \
   ffmpeg \
   ffmpegthumbnailer \
   fzf \
-  breeze-cursors \
-  breeze-gtk \
   git \
   htop \
-  mpv \
+  vlc \
   neofetch \
-  neovim \
+  vim-huge-python3 \
   noto-fonts-emoji \
   noto-fonts-ttf \
-  font-fantasque-sans-ttf \
+  ttf-ubuntu-font-family \
   python-pip \
+  python3-pip \
   ranger \
   redshift \
   scrot \
   unclutter-xfixes \
   unzip \
-  # firefox-esr \
-  qutebrowser \
+  firefox \
   w3m \
   w3m-img \
   wget \
   zathura \
-  zsh \
-  zathura-pdf-poppler
-
-pip install neovim --user
-
-nvim +PluginInstall +qall
-
+  ntfs-3g \
+  zathura-pdf-mupdf

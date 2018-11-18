@@ -1,5 +1,0 @@
-#!/bin/bash/
-set -e
-
-#Audio
-sudo xbps-install -Sy alsa-utils 
