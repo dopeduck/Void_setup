@@ -3,6 +3,12 @@ set -e
 
 sudo xbps-install -y ImageMagick \
   xorg \
+  speedtest-cli \
+  bspwm sxhkd \
+  slock \
+  polybar \
+  font-unifont-bdf \
+  font-Siji \
   i3-gaps i3blocks i3lock \
   acpi \
   arc-icon-theme arc-theme \
@@ -34,6 +40,7 @@ sudo xbps-install -y ImageMagick \
   noto-fonts-emoji \
   noto-fonts-ttf \
   ttf-ubuntu-font-family \
+  font-hack-ttf \
   python-pip \
   python3-pip \
   ranger \
@@ -48,3 +55,5 @@ sudo xbps-install -y ImageMagick \
   zathura \
   ntfs-3g \
   zathura-pdf-mupdf
+
+sudo pip3 install cum
