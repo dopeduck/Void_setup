@@ -4,7 +4,6 @@ set -e
 sudo xbps-install -y ImageMagick \
   xorg \
   font-awesome \
-  xfd \
   speedtest-cli \
   clang \
   i3-gaps i3blocks i3lock \
@@ -18,7 +17,6 @@ sudo xbps-install -y ImageMagick \
   light \
   compton \
   compton-conf \
-  dunst \
   picard \
   alsa-utils \
   ctags \
@@ -32,12 +30,14 @@ sudo xbps-install -y ImageMagick \
   fzf \
   git \
   htop \
-  vlc \
+  mpv \
   neofetch \
-  vim-huge-python3 \
+  neovim \
+  python-neovim \
+  python3-neovim \
   noto-fonts-emoji \
   noto-fonts-ttf \
-  ttf-ubuntu-font-family \
+  font-fira-ttf \
   font-hack-ttf \
   python-pip \
   python3-pip \
