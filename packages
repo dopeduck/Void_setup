@@ -39,6 +39,7 @@ sudo xbps-install -y ImageMagick \
   noto-fonts-ttf \
   font-fira-ttf \
   font-hack-ttf \
+  tt-ubuntu-font-family \
   python-pip \
   python3-pip \
   ranger \
@@ -52,6 +53,7 @@ sudo xbps-install -y ImageMagick \
   wget \
   zathura \
   ntfs-3g \
-  zathura-pdf-mupdf
+  zathura-pdf-mupdf \
+  stow \
 
 sudo pip3 install cum
