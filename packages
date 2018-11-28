@@ -14,6 +14,7 @@ sudo xbps-install -y ImageMagick \
   mpd \
   mpc \
   ncmpcpp \
+  newsboat \
   light \
   compton \
   compton-conf \
@@ -37,6 +38,7 @@ sudo xbps-install -y ImageMagick \
   python3-neovim \
   noto-fonts-emoji \
   noto-fonts-ttf \
+  qutebrowser \
   font-fira-ttf \
   font-hack-ttf \
   tt-ubuntu-font-family \
