@@ -40,8 +40,7 @@ sudo xbps-install -y ImageMagick \
   noto-fonts-ttf \
   qutebrowser \
   font-fira-ttf \
-  font-hack-ttf \
-  tt-ubuntu-font-family \
+  ttf-inconsolata \
   python-pip \
   python3-pip \
   ranger \
@@ -57,5 +56,6 @@ sudo xbps-install -y ImageMagick \
   ntfs-3g \
   zathura-pdf-mupdf \
   stow \
-
-sudo pip3 install cum
+  youtube-dl \
+  youtube-viewer \
+  transmission-cli \
