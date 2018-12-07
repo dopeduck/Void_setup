@@ -1,9 +1,9 @@
 #!/bin/bash/
 set -e
 
-sudo xbps-install -S $(cat pkg)
+#sudo xbps-install -S $(cat pkg)
 
-ln -s /etc/sv/wicd /var/service
-ln -s /etc/sv/dbus /var/service
+#sudo ln -s /etc/sv/wicd /var/service
+#sudo ln -s /etc/sv/dbus /var/service
 
 bash touchpad/pad
