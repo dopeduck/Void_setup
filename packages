@@ -3,7 +3,7 @@ set -e
 
 sudo xbps-install -S $(cat pkg)
 
+sudo gpasswd -a prat users
+
 sudo ln -s /etc/sv/wicd /var/service
 sudo ln -s /etc/sv/dbus /var/service
-
-bash touchpad/pad

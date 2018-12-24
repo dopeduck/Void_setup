@@ -17,6 +17,7 @@ i3blocks
 i3lock
 ImageMagick
 kitty
+libreoffice-common
 light
 lxappearance
 mlocate
@@ -30,8 +31,8 @@ neovim
 newsboat
 noto-fonts-ttf
 ntfs-3g
-oomox
 pamixer
+papirus-icon-theme
 picard
 pulseaudio
 alsa-plugins-pulseaudio
