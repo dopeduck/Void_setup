@@ -11,11 +11,14 @@ feh
 firefox
 font-awesome
 fzf
+gnome-icon-theme
+gnome-keyring
 htop
 i3-gaps
 i3blocks
 i3lock
 ImageMagick
+inetutils-ifconfig
 kitty
 libreoffice-common
 light
@@ -28,6 +31,8 @@ mtpfs
 ncmpcpp
 neofetch
 neovim
+NetworkManager
+network-manager-applet
 newsboat
 noto-fonts-ttf
 ntfs-3g
