@@ -3,7 +3,11 @@ set -e
 
 sudo xbps-install -S $(cat pkg)
 
-sudo gpasswd -a prat users
+#sudo gpasswd -a prat users
+sudo gpasswd -a $USER network
 
-sudo ln -s /etc/sv/wicd /var/service
+sudo rm -fr /var/service/wpa_supplicant
+
+sudo ln -s /etc/sv/NetworkManager /var/service
 sudo ln -s /etc/sv/dbus /var/service
+sudo ln -s /etc/sv/acpid /var/service
