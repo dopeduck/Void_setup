@@ -20,7 +20,6 @@ i3lock
 ImageMagick
 inetutils-ifconfig
 kitty
-libreoffice-common
 light
 lxappearance
 mlocate
@@ -59,12 +58,9 @@ unclutter
 unzip
 urlscan
 urxvt-perls
-vscode
 w3m
 w3m-img
 wget
-wicd
-wicd-gtk
 xorg
 xsel
 youtube-dl

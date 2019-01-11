@@ -3,11 +3,13 @@ set -e
 
 sudo xbps-install -S $(cat pkg)
 
-#sudo gpasswd -a prat users
 sudo gpasswd -a $USER network
 
 sudo rm -fr /var/service/wpa_supplicant
+sudo rm -fr /var/service/dhcpcd
 
 sudo ln -s /etc/sv/NetworkManager /var/service
 sudo ln -s /etc/sv/dbus /var/service
 sudo ln -s /etc/sv/acpid /var/service
+
+sudo cp 50-org.freedesktop.NetworkManager.rules /etc/polkit-1/rules.d/50-org.freedesktop.NetworkManager.rules
