@@ -1,5 +1,4 @@
 acpi
-alsa-utils
 arc-theme
 arc-icon-theme
 breeze-obsidian-cursor-theme
@@ -39,7 +38,6 @@ pamixer
 papirus-icon-theme
 picard
 pulseaudio
-alsa-plugins-pulseaudio
 python-neovim
 python-pip
 python3-pip
@@ -67,3 +65,4 @@ youtube-dl
 youtube-viewer
 zathura
 zathura-pdf-mupdf
+void-repo-nonfree
