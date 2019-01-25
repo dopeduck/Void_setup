@@ -3,16 +3,15 @@ apulse
 arc-theme
 arc-icon-theme
 breeze-obsidian-cursor-theme
-chromium
 clang
 compton
 ctags
 curl
 feh
 ffmpeg
+firefox
 font-awesome
 fzf
-glava
 gnome-icon-theme
 gnome-keyring
 htop
@@ -37,7 +36,7 @@ neofetch
 neovim
 NetworkManager
 network-manager-applet
-newsboat
+nodejs
 noto-fonts-ttf
 ntfs-3g
 pamixer
@@ -49,6 +48,7 @@ python-pip
 python3-pip
 python3-neovim
 pywal
+qutebrowser
 ranger
 redshift
 rofi
