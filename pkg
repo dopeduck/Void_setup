@@ -1,7 +1,5 @@
 acpi
 alsa-utils
-alsa-plugins-pulseaudio
-apulse
 arc-theme
 base-devel
 breeze-obsidian-cursor-theme
@@ -20,19 +18,12 @@ fzf
 gnome-icon-theme
 gnome-keyring
 htop
-i3-gaps
-i3blocks
-i3lock
 ImageMagick
 inetutils-ifconfig
-kitty
 libX11-devel
 libXft-devel
 libXinerama-devel
 light
-lightdm
-lightdm-gtk3-greeter
-lightdm-gtk-greeter-settings
 lxappearance
 mlocate
 mpc
@@ -47,10 +38,8 @@ network-manager-applet
 nodejs
 noto-fonts-ttf
 ntfs-3g
-pamixer
 papirus-icon-theme
 picard
-pulseaudio
 python-neovim
 python-pip
 python3-pip
@@ -59,7 +48,6 @@ pywal
 qutebrowser
 ranger
 redshift
-rofi
 rxvt-unicode
 scrot
 slock
