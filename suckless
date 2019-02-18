@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+git clone https://github.com/pratSurek/suckless ~/
+
+cd ~/suckless
+cd dwm
+sudo make clean install
+
+cd ../st
+sudo make clean install
+
+cd ../misc
+cd dmwnu
+sudo make clean install
+cd ../slock
+sudo make clena install
+
+cd ~/Github/Void_setup

@@ -6,6 +6,7 @@ breeze-obsidian-cursor-theme
 clang
 compton
 compton-conf
+cowsay
 ctags
 curl
 dmenu
@@ -14,6 +15,7 @@ ffmpeg
 firefox
 font-awesome
 font-symbola
+fortune-mod-void
 fzf
 gnome-icon-theme
 gnome-keyring
@@ -23,6 +25,7 @@ inetutils-ifconfig
 libX11-devel
 libXft-devel
 libXinerama-devel
+libXrandr-devel
 light
 lxappearance
 mlocate
