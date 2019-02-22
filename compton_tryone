@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+sudo xbpa-install libXcomposit-devel libXdamage-devel libdrm-devel asciidoc MesaLib-devel
+
+git clone https://github.com/tryone144/compton.git
+
+cd compton 
+make
+make docs
+make install
