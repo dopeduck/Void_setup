@@ -10,6 +10,7 @@ cowsay
 ctags
 curl
 dmenu
+dunst
 feh
 ffmpeg
 firefox
@@ -38,6 +39,7 @@ neofetch
 neovim
 NetworkManager
 network-manager-applet
+nnn
 nodejs
 noto-fonts-ttf
 ntfs-3g
