@@ -18,3 +18,5 @@ sudo mkdir /etc/X11/xorg.conf.d/
 sudo cp touchpad/40-libinput.conf /etc/X11/xorg.conf.d/
 
 xdg-mime default feh.desktop image/png
+xdg-mime default org.pwmt.zathura-pdf-mupdf.desktop application/pdf
+
