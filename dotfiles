@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 now=`pwd`
-git clone https://github.com/pratSureka/dotfiles ~/
+git clone https://github.com/pratSureka/dotfiles ~/dotfiles/
 
 cd ~/dotfiles
 
@@ -11,4 +11,4 @@ stow -v -t ~/.config .config
 
 cd $now
 
-git clone https://github.com/pratSureka/.scripts ~/
+git clone https://github.com/pratSureka/.scripts ~/.scripts/
