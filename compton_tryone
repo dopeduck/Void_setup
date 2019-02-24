@@ -2,9 +2,12 @@
 
 sudo xbpa-install libXcomposit-devel libXdamage-devel libdrm-devel asciidoc MesaLib-devel
 
-git clone https://github.com/tryone144/compton.git
+now=`pwd`
+git clone https://github.com/tryone144/compton.git ~/Github
 
-cd compton 
+cd ~/Github/compton 
 make
 make docs
 make install
+
+cd $now
