@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 
+now=`pwd`
 git clone https://github.com/pratSureka/dotfiles ~/
 
 cd ~/dotfiles
 
 stow home
+mkdir ~/.config
+stow -v -t ~/.config .config
 
-cd ~/Github/Void_setup
+cd $now
 
 git clone https://github.com/pratSureka/.scripts ~/

@@ -1,18 +1,17 @@
 #!/usr/bin/env bash
 
-git clone https://github.com/pratSurek/suckless ~/
+sudo xbps-install -S libX11-devel libXft-devel libXinerama-devel libXrandr-devel
 
-cd ~/suckless
-cd dwm
+now=`pwd`
+git clone https://github.com/pratSurek/.dwm ~/
+
+cd ~/.dwm
 sudo make clean install
 
-cd ../st
+cd $now
+
+git clone https://github.com/pratSurek/.st ~/
+cd ~/.st
 sudo make clean install
 
-cd ../misc
-cd dmwnu
-sudo make clean install
-cd ../slock
-sudo make clena install
-
-cd ~/Github/Void_setup
+cd $now

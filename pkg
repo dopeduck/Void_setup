@@ -24,10 +24,6 @@ gnome-keyring
 htop
 ImageMagick
 inetutils-ifconfig
-libX11-devel
-libXft-devel
-libXinerama-devel
-libXrandr-devel
 light
 lxappearance
 mlocate

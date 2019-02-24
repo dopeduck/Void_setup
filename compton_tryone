@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
 sudo xbpa-install libXcomposit-devel libXdamage-devel libdrm-devel asciidoc MesaLib-devel
+sudo xbps-install libX11-devel libXft-devel libXinerama-devel libXrandr-devel
 
 now=`pwd`
-git clone https://github.com/tryone144/compton.git ~/Github
+git clone https://github.com/tryone144/compton.git ~/Github/
 
 cd ~/Github/compton 
 make
