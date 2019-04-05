@@ -1,4 +1,0 @@
-sudo xbps-install ufw
-sudo xbps-reconfigure ufw
-sudo ufw enable
-sudo ln -s /etc/sv/ufw /var/service

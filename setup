@@ -1,0 +1,27 @@
+#!/bin/bash
+set -e
+
+sudo xbps-install -S `cat pkg`
+sudo xbps-reconfigure ufw
+
+sudo rm -rf /var/service/agetty-tty4
+sudo rm -rf /var/service/agetty-tty5
+sudo rm -rf /var/service/agetty-tty6
+sudo rm -rf /var/service/dhcpcd
+
+sudo ln -sf /etc/sv/NetworkManager/ /var/service
+sudo ln -sf /etc/sv/dbus/ /var/service
+sudo ln -sf /etc/sv/acpid /var/service
+sudo ln -sf /etc/sv/bluetoothd /var/service
+sudo ln -sf /etc/sv/ufw /var/service
+
+sudo ufw enable
+
+sudo cp net/50-org.freedesktop.NetworkManager.rules /etc/polkit-1/rules.d/50-org.freedesktop.NetworkManager.rules
+
+sudo mkdir /etc/X11/xorg.conf.d/
+sudo cp touchpad/40-libinput.conf /etc/X11/xorg.conf.d/
+
+xdg-mime default feh.desktop image/png
+xdg-mime default org.pwmt.zathura-pdf-mupdf.desktop application/pdf
+

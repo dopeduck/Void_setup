@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-sudo xbps-install bspwm sxhkd rofi polybar font-Siji font-unifont-bdf
