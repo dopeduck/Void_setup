@@ -1,17 +1,21 @@
 #!/usr/bin/env bash
 set -e 
 
-sudo xbps-install -S `cat dep_p`
+now=`pwd`
+#sudo xbps-install -S `cat dep_p`
 if [[ -f ~/.packages ]]; then
+  cd ~/.packages/compton
   git clone https://github.com/tryone144/compton.git
 else
   mkdir -p ~/.packages
+  cd ~/.packages/compton
   git clone https://github.com/tryone144/compton.git
 fi
 
-cd ~/.packages/compton
 make
 make docs
 sudo make install
+
+cd $now
 
 exit

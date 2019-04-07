@@ -208,6 +208,7 @@ kmod-26_3
 lame-3.100_1
 lcms2-2.9_2
 less-530_2
+lf-r11_1
 libEGL-19.0.1_1
 libGL-19.0.1_1
 libGLES-19.0.1_1
@@ -266,7 +267,7 @@ libavresample-4.1.3_1
 libavutil-4.1.3_1
 libblkid-2.33.1_2
 libbluetooth-5.50_5
-libbluray-1.1.0_1
+libbluray-1.1.1_1
 libboost_chrono1.69-1.69.0_2
 libboost_filesystem1.69-1.69.0_2
 libboost_locale1.69-1.69.0_2
@@ -288,7 +289,7 @@ libcdparanoia-10.2_13
 libcolord-1.4.4_1
 libconfig-1.7.2_2
 libconfig-devel-1.7.2_2
-libcroco-0.6.12_2
+libcroco-0.6.13_1
 libcrypto44-2.8.3_1
 libcryptsetup-2.1.0_1
 libcups-2.2.11_1
@@ -701,7 +702,7 @@ xwd-1.0.7_1
 xwininfo-1.1.4_2
 xwud-1.0.5_1
 yajl-2.1.0_4
-youtube-dl-2019.04.01_1
+youtube-dl-2019.04.07_1
 zathura-0.4.3_2
 zathura-pdf-mupdf-0.3.4_2
 zd1211-firmware-1.5_2
