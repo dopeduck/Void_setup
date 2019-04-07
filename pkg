@@ -29,7 +29,9 @@ bash-5.0.003_1
 binutils-2.32_1
 blueman-2.0.8_1
 bluez-5.50_5
+bluez-deprecated-5.50_5
 boost-1.69.0_2
+broadcom-bt-firmware-12.0.1.1011_1
 btrfs-progs-4.20.2_1
 bzip2-1.0.6_14
 bzip2-devel-1.0.6_14
@@ -452,8 +454,9 @@ linux-firmware-amd-20181218_1
 linux-firmware-intel-20181218_1
 linux-firmware-network-20181218_1
 linux-firmware-nvidia-20181218_1
-linux4.18-4.18.17_1
 linux4.19-4.19.33_1
+linux5.0-5.0.7_1
+linux5.0-headers-5.0.7_1
 llhttp-1.1.1_1
 lua51-5.1.5_8
 lua52-5.2.4_7
