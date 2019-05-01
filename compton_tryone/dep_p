@@ -1,3 +1,4 @@
+dbus-devel
 libX11-devel
 libXcomposite-devel
 libXdamage-devel
@@ -20,4 +21,6 @@ libGL
 libdbus-c++
 libdbus-c++-devel
 asciidoc
+pcre
 pcre-devel
+MesaLib-devel
