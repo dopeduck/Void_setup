@@ -470,7 +470,6 @@ linux-firmware-intel-20181218_1
 linux-firmware-network-20181218_1
 linux-firmware-nvidia-20181218_1
 linux-headers-4.19_1
-linux4.18-4.18.17_1
 linux4.19-4.19.37_1
 linux4.19-headers-4.19.37_1
 linux5.0-5.0.10_1
@@ -631,7 +630,6 @@ spectrwm-3.2.0_1
 speexdsp-1.2rc3_2
 sqlite-3.28.0_1
 startup-notification-0.12_10
-steam-1.0.0.59_1
 stow-2.2.2_2
 sudo-1.8.27_1
 sxiv-25_2
