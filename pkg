@@ -18,7 +18,6 @@ base-system-0.112_6
 betterlockscreen-3.0.1_2
 blueman-2.0.8_1
 bluez-5.50_5
-bspwm-0.9.7_1
 clang-8.0.0_4
 conky-1.11.1_1
 cryptsetup-2.1.0_2
@@ -28,7 +27,6 @@ dbus-devel-1.12.16_1
 dialog-1.3.20190211_2
 dmenu-4.9_1
 dunst-1.4.0_1
-dwm-6.2_1
 feh-3.1.3_1
 ffmpeg-4.1.3_2
 firefox-67.0.3_1
@@ -45,7 +43,6 @@ gst-plugins-base1-1.16.0_1
 gst-plugins-good1-1.16.0_2
 gst-plugins-ugly1-1.16.0_1
 gstreamer1-1.16.0_1
-herbstluftwm-0.7.2_1
 i3-gaps-4.16.1_2
 lf-r12_1
 libGL-32bit-19.0.6_1
