@@ -20,7 +20,8 @@ docker
 docker-compose
 docker-machine
 dunst
-fehffmpeg
+feh
+ffmpeg
 firefox
 flameshot
 font-hack-ttf
@@ -81,7 +82,7 @@ sysstat
 transmission
 transmission-remote-cli
 tree
-ttf-material-iconstuimoji
+tuimoji
 ufw
 unclutter
 unrar
@@ -89,9 +90,10 @@ unzip
 urlscan
 void-repo-nonfree
 wget
-xdg-utilsxorg
+xdg-utils
+xorg
 xsel
-youtube
+youtube-dl
 zathura
 zathura-pdf-mupdf
 
