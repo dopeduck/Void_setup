@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-sudo xbps-install -S `cat pkg`
+sudo xbps-install -S `cat pkg-i`
 
 sudo rm -rf /var/service/agetty-tty4
 sudo rm -rf /var/service/agetty-tty5
