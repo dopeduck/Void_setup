@@ -1,5 +1,5 @@
 ImageMagick-7.0.8.64_1
-MesaLib-devel-19.1.4_1
+MesaLib-devel-19.1.7_1
 NetworkManager-1.18.2_4
 acpi-1.7_4
 alacritty-0.3.3_1
@@ -7,7 +7,7 @@ alsa-firmware-1.0.29_2
 alsa-utils-1.1.9_1
 apulse-0.1.12_1
 arandr-0.1.10_1
-arc-theme-20190910_1
+arc-theme-20190917_1
 asciidoc-8.6.10_2
 base-devel-20181003_2
 base-system-0.112_6
@@ -31,7 +31,7 @@ feh-3.2.1_2
 ffmpeg-4.2.1_1
 firefox-69.0_1
 flameshot-0.6.0_2
-font-awesome5-5.10.2_1
+font-awesome5-5.11.1_1
 font-hack-ttf-3.003_1
 font-inconsolata-otf-001.010_3
 font-material-design-icons-ttf-3.0.1_1
@@ -132,3 +132,4 @@ xst-0.7.2_3
 youtube-dl-2019.09.12.1_1
 zathura-0.4.3_2
 zathura-pdf-mupdf-0.3.5_1
+zsh-5.7.1_1
