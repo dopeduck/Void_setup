@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 
-sudo xbps-install -S void-repo-nonfree
 sudo xbps-install -S `cat pkg`
 
 sudo rm -rf /var/service/agetty-tty4
@@ -31,4 +30,4 @@ else
   sudo cp touchpad/40-libinput.conf /etc/X11/xorg.conf.d/
 fi
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
