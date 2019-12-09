@@ -8,20 +8,23 @@ sudo rm -rf /var/service/agetty-tty5
 sudo rm -rf /var/service/agetty-tty6
 sudo rm -rf /var/service/dhcpcd
 
-sudo gpasswd -a prat bluetooth
-sudo gpasswd -a prat network
 sudo ln -sf /etc/sv/NetworkManager/ /var/service
 sudo ln -sf /etc/sv/dbus/ /var/service
 sudo ln -sf /etc/sv/acpid /var/service
 sudo ln -sf /etc/sv/bluetoothd /var/service
 sudo ln -sf /etc/sv/ufw /var/service
+sudo ln -sf /etc/sv/polkitd /var/service
+sudo ln -sf /etc/sv/elogind /var/service
 
 sudo xbps-reconfigure ufw
 sudo ufw enable
 
-sudo cp net/50-org.freedesktop.NetworkManager.rules /etc/polkit-1/rules.d/50-org.freedesktop.NetworkManager.rules
+sudo cp net/50-org.freedesktop.NetworkManager.rules /etc/polkit-1/rules.d/
 
 sudo cp bluetooth/51-blueman.rules /etc/polkit-1/rules.d/
+
+sudo gpasswd -a prat bluetooth
+sudo gpasswd -a prat network
 
 if [[ -f /etc/X11/xorg.conf.d/ ]]; then
   sudo cp touchpad/40-libinput.conf /etc/X11/xorg.conf.d/
@@ -30,4 +33,4 @@ else
   sudo cp touchpad/40-libinput.conf /etc/X11/xorg.conf.d/
 fi
 
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)
